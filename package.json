@@ -1,10 +1,24 @@
 {
   "name": "ggip",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The official CLI of GRE GeoIP API.",
-  "bin": {
-    "ggip": "./build/cli.js"
+  "homepage": "https://github.com/gre-dev/GeoIP-CLI",
+  "keywords": ["cli", "geoip", "geolocation", "API"],
+  "author": {
+    "name": "GRE Development Ltd.",
+    "email": "info@gredev.io",
+    "url": "https://www.gredev.io/en/"
   },
+  "license": "MIT",
+  "bugs": {
+    "url" : "https://github.com/gre-dev/GeoIP-CLI/issues",
+    "email" : "info@gredev.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gre-dev/GeoIP-CLI.git"
+  },
+  "bin": "./build/cli.js",
   "preferGlobal": true,
   "scripts": {
     "start": "node index.js",
@@ -13,9 +27,6 @@
     "dev": "pastel dev",
     "prepare": "pastel build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "axios": "^0.25.0",
     "cli-storage": "0.0.1",
