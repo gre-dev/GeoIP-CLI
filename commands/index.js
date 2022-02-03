@@ -56,7 +56,7 @@ const Home = ({ inputArgs }) => {
                     <>
                         <Box><Text color="yellow" bold>ー </Text><Text>Usage:</Text></Box>
                         <Box>
-                            <Text>      geoip {`<command> [arguments] [options]`}</Text>
+                            <Text>      ggip {`<command> [arguments] [options]`}</Text>
                         </Box>
                         <Text> </Text>
                         <Box><Text color="yellow" bold>ー </Text><Text>Commands:</Text></Box>
@@ -73,10 +73,10 @@ const Home = ({ inputArgs }) => {
                         <Box><Text>     '-h' after the command for more information</Text></Box>
                         <Text> </Text>
                         <Box><Text>     Examples:</Text></Box>
-                        <Box><Text>         geoip -h</Text></Box>
-                        <Box><Text>         geoip me -h</Text></Box>
-                        <Box><Text>         geoip country -h</Text></Box>
-                        <Box><Text>         geoip lookup -h</Text></Box>
+                        <Box><Text>         ggip -h</Text></Box>
+                        <Box><Text>         ggip me -h</Text></Box>
+                        <Box><Text>         ggip country -h</Text></Box>
+                        <Box><Text>         ggip lookup -h</Text></Box>
                         <Text> </Text>
                         <Text> </Text>
                     </>

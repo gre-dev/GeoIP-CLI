@@ -8,7 +8,7 @@ const MeHelp = () => {
             <Text> </Text>
             <Box><Text color="yellow" bold>ー </Text><Text>Usage:</Text></Box>
             <Box>
-                <Text>      geoip {`me [options...]`}</Text>
+                <Text>      ggip {`me [options...]`}</Text>
             </Box>
             <Text> </Text>
             <Box><Text color="yellow" bold>ー </Text><Text>Options:</Text></Box>
@@ -24,10 +24,10 @@ const MeHelp = () => {
             <Box><Text>        			seperated by comma.</Text></Box>
             <Newline />
             <Box><Text color="yellow" bold>ー </Text><Text>Examples:</Text></Box>
-            <Box><Text>      geoip me -i</Text></Box>
-            <Box><Text>      geoip me -i -o JSON</Text></Box>
-            <Box><Text>      geoip me -i -o JSON -d</Text></Box>
-            <Box><Text>      geoip me -i -m location,timezone,security</Text></Box>
+            <Box><Text>      ggip me -i</Text></Box>
+            <Box><Text>      ggip me -i -o JSON</Text></Box>
+            <Box><Text>      ggip me -i -o JSON -d</Text></Box>
+            <Box><Text>      ggip me -i -m location,timezone,security</Text></Box>
             <Text> </Text>
             <Text> </Text>
         </>

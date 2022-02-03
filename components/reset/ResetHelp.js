@@ -8,7 +8,7 @@ const ResetHelp = () => {
             <Text> </Text>
             <Box><Text color="yellow" bold>ー </Text><Text>Usage:</Text></Box>
             <Box>
-                <Text>      geoip {`reset [options...]`}</Text>
+                <Text>      ggip {`reset [options...]`}</Text>
             </Box>
             <Text> </Text>
             <Box><Text color="yellow" bold>ー </Text><Text>Information:</Text></Box>
