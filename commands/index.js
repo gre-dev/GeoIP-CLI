@@ -63,6 +63,7 @@ const Home = ({ inputArgs }) => {
                         <Box><Text>     me          Used to fetch your IP Address information.</Text></Box>
                         <Box><Text>     lookup      Retrieves the information of a specific IP Address.</Text></Box>
                         <Box><Text>     country     Retrieves the information of a specific Country.</Text></Box>
+                        <Box><Text>     reset       Used to reset the current settings.</Text></Box>
                         <Newline />
                         <Box><Text color="yellow" bold>ー </Text><Text>Options:</Text></Box>
                         <Box><Text>     -h          Show information about the current command.</Text></Box>
