@@ -1,6 +1,6 @@
 {
   "name": "ggip",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The official CLI of GRE GeoIP API.",
   "homepage": "https://github.com/gre-dev/GeoIP-CLI",
   "keywords": [
