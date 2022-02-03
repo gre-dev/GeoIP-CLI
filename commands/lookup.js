@@ -11,7 +11,7 @@ const fs = require('fs');
 
 /// Show the informatioin of your current IP Address.
 
-const lookup = ({lookupHelp, ip, modules, development, format}) => {
+const lookup = ({lookupHelp, ip, modules, development, format = 'Newline'}) => {
     const [APIKey, setAPIKey] = React.useState('');
     const [isReady, setIsReady] = React.useState(false);
     const [isKeyChecked, setIsKeyChecked] = React.useState(false);

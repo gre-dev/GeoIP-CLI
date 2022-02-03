@@ -12,7 +12,7 @@ const fs = require('fs');
 
 /// Show the informatioin of a specified Country.
 
-const country = ({countryHelp, countryCode, modules, development, format}) => {
+const country = ({countryHelp, countryCode, modules, development, format = 'Newline'}) => {
     const [APIKey, setAPIKey] = React.useState('');
     const [isReady, setIsReady] = React.useState(false);
     const [isKeyChecked, setIsKeyChecked] = React.useState(false);
