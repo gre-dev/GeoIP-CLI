@@ -1,0 +1,38 @@
+{
+  "name": "ggip",
+  "version": "1.0.1",
+  "description": "The official CLI of GRE GeoIP API.",
+  "bin": {
+    "ggip": "./build/cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\"",
+    "build": "pastel build",
+    "dev": "pastel dev",
+    "prepare": "pastel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cli-storage": "0.0.1",
+    "ink": "^3.2.0",
+    "ink-link": "^2.0.0",
+    "ink-spinner": "^4.0.3",
+    "ink-text-input": "^4.0.2",
+    "pastel": "^1.1.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/register": "^7.16.9"
+  }
+}
