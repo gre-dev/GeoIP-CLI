@@ -14,6 +14,10 @@
     "email": "info@gredev.io",
     "url": "https://www.gredev.io/en/"
   },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/gredev"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gre-dev/GeoIP-CLI/issues",
