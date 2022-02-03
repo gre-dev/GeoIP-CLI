@@ -93,7 +93,7 @@ Just paste your API Key and hit Enter.
 $ ggip -h                           # Show usage information.
 $ ggip me -h                        # Show usage information for `me` command.
 $ ggip me                           # Used to get the current IP Address info.
-$ ggip me -o Newline                # Get the current IP Address in `Newline`
+$ ggip me -o JSON                   # Get the current IP Address in `JSON`
                                     # format.
 $ ggip me -i                        # Get only the current IP Address.
 $ ggip lookup 1.1.1.1               # Fetch the information of a specific IP
