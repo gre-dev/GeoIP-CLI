@@ -5,7 +5,7 @@
     <a href="https://github.com/gre-dev/GeoIP-CLI/issues/new">Report Issue</a> · 
     <a href="https://github.com/gre-dev/GeoIP-CLI/discussions/new">Request Feature</a> · 
     <a href="https://www.gredev.io/en/GeoIP" target="_BLANK">API Home Page</a> · 
-    <a href="https://geoip-docs.gredev.io/sdks/js" target="_BLANK">API Docs</a>
+    <a href="https://geoip-docs.gredev.io/tools-and-libraries/geoip-cli" target="_BLANK">API Docs</a>
     <br />
     <br />
     <a href="https://www.npmjs.com/package/ggip" title="NPM Package" href="_BLANK"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"></a>
